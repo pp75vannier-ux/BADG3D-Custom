@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APEX RENDER — Retexture 3D & Débadge FiveM / GTA V</title>
+<meta name="description" content="Studio spécialisé en retexture 3D, débadge et customisation de véhicules pour FiveM / GTA V. Projets sur mesure, livraison rapide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grid-bg"></div>
+
+<header id="header">
+  <nav>
+    <div class="logo"><span class="dot"></span>APEX RENDER<span>3D STUDIO</span></div>
+    <div class="nav-links" id="navLinks">
+      <a href="#accueil">Accueil</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#processus">Processus</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <a href="https://discord.gg/GHFwrrVECv" target="_blank" rel="noopener" class="nav-discord" aria-label="Rejoindre le Discord">
+        <svg width="18" height="18" viewBox="0 0 127.14 96.36" fill="currentColor"><path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/></svg>
+      </a>
+      <a href="#contact" class="nav-cta">Démarrer un projet</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="accueil">
+  <div class="hero-grid">
+    <div>
+      <div class="eyebrow reveal">Studio 3D — FiveM / GTA V</div>
+      <h1 class="reveal">RETEXTURE 3D<br>&amp; <em>CUSTOMISATION</em></h1>
+      <div class="sub reveal">Des véhicules et assets FiveM / GTA V retravaillés avec précision.</div>
+      <p class="reveal">Spécialisé dans la retexture 3D, la personnalisation visuelle et le débadge de véhicules pour FiveM et GTA V. Je transforme vos modèles pour leur donner une identité unique et professionnelle.</p>
+      <div class="btn-row reveal">
+        <a href="#portfolio" class="btn btn-primary">Voir mes réalisations</a>
+        <a href="#contact" class="btn btn-ghost">Me contacter</a>
+      </div>
+      <a href="https://discord.gg/GHFwrrVECv" target="_blank" rel="noopener" class="hero-discord-link reveal">
+        <svg width="16" height="16" viewBox="0 0 127.14 96.36" fill="currentColor"><path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/></svg>
+        Rejoindre le Discord pour commander
+      </a>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="hud h1"><b id="hudScan">50%</b>MESH → RENDER<br>RÉSOLUTION 4K</div>
+      <div class="hud h2">REF// APX-014<br><b>DÉBADGE + RETEXTURE</b></div>
+      <div class="car-stage" id="carStage">
+        
+        <div class="car-photo-layer" id="carPhotoLayer" >
+          <img src="hero-car.jpg" alt="Véhicule débadgé et retexturé — rendu final APEX RENDER" loading="eager">
+        </div>
+        <div class="scan-line" id="scanLine" style="left:50%"></div>
+        <div class="scan-label" id="scanLabel" style="left:50%">SCAN LINE</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap"><div class="divider"></div></div>
+
+<!-- ============ SERVICES ============ -->
+<section id="services">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Prestations</div>
+      <h2>Un savoir-faire complet, du fichier source au rendu final.</h2>
+      <p>Chaque service est pensé pour s'intégrer proprement dans votre pipeline FiveM, avec des livrables optimisés et prêts à l'emploi.</p>
+    </div>
+    <div class="services-grid reveal">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <svg class="service-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="6" y="6" width="28" height="28" rx="2"/><path d="M6 20h28M20 6v28M13 13l14 14M27 13L13 27"/></svg>
+        <h3>Retexture 3D</h3>
+        <p>Création et modification de textures pour véhicules et assets FiveM / GTA V, avec une attention particulière portée aux détails, aux couleurs et au rendu final.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <svg class="service-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M8 28l6-16h12l6 16"/><path d="M14 20h12"/><circle cx="20" cy="12" r="3"/><path d="M20 12L14 4M20 12l6-8" opacity=".5"/></svg>
+        <h3>Débadge</h3>
+        <p>Suppression, modification ou remplacement des logos, badges et éléments visuels présents sur les véhicules.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <svg class="service-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="20" cy="20" r="14"/><path d="M20 6v6M20 28v6M6 20h6M28 20h6"/><circle cx="20" cy="20" r="4"/></svg>
+        <h3>Customisation</h3>
+        <p>Adaptation visuelle des modèles selon les besoins du client : couleurs, logos, livrées, détails et identité visuelle.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <svg class="service-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M6 12l14-7 14 7-14 7-14-7z"/><path d="M6 12v16l14 7 14-7V12"/><path d="M20 19v16" opacity=".5"/></svg>
+        <h3>Projets sur mesure</h3>
+        <p>Possibilité de réaliser des demandes personnalisées selon le projet et les besoins spécifiques du client.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PORTFOLIO ============ -->
+<section id="portfolio">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Portfolio</div>
+      <h2>Mes réalisations</h2>
+      <p>Survolez un projet pour révéler le détail du rendu final.</p>
+    </div>
+
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="tous">Tous</button>
+      <button class="filter-btn" data-filter="retexture">Retexture</button>
+      <button class="filter-btn" data-filter="debadge">Débadge</button>
+      <button class="filter-btn" data-filter="custom">Custom</button>
+      <button class="filter-btn" data-filter="fivem">FiveM</button>
+    </div>
+
+    <div class="portfolio-grid reveal" id="portfolioGrid"></div>
+  </div>
+</section>
+
+<!-- ============ AVANT / APRES ============ -->
+<section id="avant-apres">
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-left:auto;margin-right:auto;text-align:center;">
+      <div class="eyebrow" style="justify-content:center;">Comparaison</div>
+      <h2>Du modèle original au rendu final</h2>
+      <p style="margin-left:auto;margin-right:auto;">Faites glisser le curseur pour révéler la précision du travail et les détails de la modification.</p>
+    </div>
+
+    <div class="compare-wrap reveal" id="compareWrap">
+      <div class="compare-layer compare-before">
+        <svg viewBox="0 0 600 400" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+          <rect width="600" height="400" fill="#0d0f12"/>
+          <g class="wire-fill">
+            <path d="M60,300 L95,255 Q130,205 190,195 L230,175 Q290,150 360,160 L430,180 Q470,195 500,225 L520,255 L520,300 Z"/>
+            <path d="M95,255 L500,255" opacity=".5"/>
+            <path d="M190,195 L230,240 L360,240 L430,180" opacity=".5"/>
+            <path d="M120,255 Q120,225 150,215 L230,205 L360,205 Q420,205 460,240 L480,255" opacity=".6"/>
+            <circle cx="150" cy="300" r="42"/><circle cx="150" cy="300" r="18"/>
+            <circle cx="440" cy="300" r="42"/><circle cx="440" cy="300" r="18"/>
+            <path d="M60,300 L520,300"/>
+          </g>
+        </svg>
+      </div>
+      <div class="compare-layer compare-after">
+        <img src="hero-car.jpg" alt="Rendu final texturé" loading="lazy">
+      </div>
+      <div class="compare-label before">Original</div>
+      <div class="compare-label after">Rendu final</div>
+      <div class="compare-handle" id="compareHandle"></div>
+      <input type="range" min="0" max="100" value="50" class="compare-range" id="compareRange" aria-label="Comparer avant et après">
+    </div>
+  </div>
+</section>
+
+<!-- ============ POURQUOI ============ -->
+<section id="pourquoi">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Pourquoi me choisir</div>
+      <h2>Une exigence de studio, à chaque livrable.</h2>
+    </div>
+    <div class="why-grid reveal">
+      <div class="why-card"><span class="why-mark">＋</span><h3>Précision</h3><p>Travail minutieux jusque dans les plus petits détails.</p></div>
+      <div class="why-card"><span class="why-mark">＋</span><h3>Qualité</h3><p>Des rendus propres et cohérents avec l'environnement FiveM / GTA V.</p></div>
+      <div class="why-card"><span class="why-mark">＋</span><h3>Personnalisation</h3><p>Chaque projet peut être adapté aux besoins et à l'identité du client.</p></div>
+      <div class="why-card"><span class="why-mark">＋</span><h3>Professionnalisme</h3><p>Communication claire, suivi du projet et attention portée aux finitions.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESSUS ============ -->
+<section id="processus">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Méthode</div>
+      <h2>Un processus clair, en quatre étapes.</h2>
+    </div>
+    <div class="process-list reveal">
+      <div class="process-item">
+        <div class="process-num">01</div>
+        <div><h3>Discussion</h3><p>Présentation du projet et définition des besoins.</p></div>
+      </div>
+      <div class="process-item">
+        <div class="process-num">02</div>
+        <div><h3>Conception</h3><p>Création ou modification des textures et éléments demandés.</p></div>
+      </div>
+      <div class="process-item">
+        <div class="process-num">03</div>
+        <div><h3>Validation</h3><p>Présentation du résultat et ajustements éventuels.</p></div>
+      </div>
+      <div class="process-item">
+        <div class="process-num">04</div>
+        <div><h3>Livraison</h3><p>Livraison du projet finalisé dans les formats nécessaires.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="eyebrow">Contact &amp; commandes</div>
+        <h2 style="font-size:clamp(26px,3vw,36px);margin-top:16px;">Un projet en tête ?</h2>
+        <p>Décrivez-moi votre projet et vos besoins ci-contre : votre demande part directement sur mon Discord. Vous pouvez aussi rejoindre le serveur pour suivre l'avancement, poser vos questions et commander en direct.</p>
+
+        <a href="https://discord.gg/GHFwrrVECv" target="_blank" rel="noopener" class="btn btn-primary discord-cta">
+          <svg width="18" height="18" viewBox="0 0 127.14 96.36" fill="currentColor"><path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/></svg>
+          Rejoindre le Discord
+        </a>
+
+        <div class="socials">
+          <a href="https://discord.gg/GHFwrrVECv" target="_blank" rel="noopener" class="social-link" aria-label="Rejoindre le Discord"><svg width="18" height="18" viewBox="0 0 127.14 96.36" fill="currentColor"><path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/></svg></a>
+          <a href="#" class="social-link" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="12" cy="12" r="3.5"/><circle cx="16.5" cy="7.5" r="1"/></svg></a>
+          <a href="#" class="social-link" aria-label="Twitter / X"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+        </div>
+      </div>
+
+      <form class="reveal" id="contactForm">
+        <div class="form-row">
+          <div class="field"><label for="fname">Nom / pseudo</label><input type="text" id="fname" required></div>
+          <div class="field"><label for="femail">E-mail</label><input type="email" id="femail" required></div>
+        </div>
+        <div class="field">
+          <label for="ftype">Type de prestation</label>
+          <select id="ftype">
+            <option>Retexture 3D</option>
+            <option>Débadge</option>
+            <option>Customisation</option>
+            <option>Projet sur mesure</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="fdesc">Description du projet</label>
+          <textarea id="fdesc" required placeholder="Véhicule / asset concerné, style souhaité, références…"></textarea>
+        </div>
+        <div class="field">
+          <label for="fbudget">Budget indicatif</label>
+          <input type="text" id="fbudget" placeholder="Ex. 20–40€">
+        </div>
+        <button type="submit" class="btn btn-primary submit-btn">
+          <span class="btn-label">Envoyer ma demande</span>
+        </button>
+        <div class="form-note" id="formNote">// Demande envoyée sur Discord — réponse sous 24 à 48h.</div>
+        <div class="form-note form-error" id="formError">// Une erreur est survenue. Réessaie ou contacte-moi directement sur Discord.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="logo"><span class="dot"></span>APEX RENDER</div>
+        <div class="footer-tag">Retexture 3D • FiveM • GTA V</div>
+      </div>
+      <div class="footer-links">
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="https://discord.gg/GHFwrrVECv" target="_blank" rel="noopener">Discord</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 APEX RENDER. Tous droits réservés.</span>
+      <span>Projet indépendant — non affilié à Rockstar Games.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
